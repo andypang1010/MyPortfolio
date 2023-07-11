@@ -51,6 +51,10 @@ img {
     -ms-user-select: none;
 }
 
+a {
+    color: var(--accent-color);
+}
+
 /* Navigation bar */
 .navbar {
     box-shadow: 0.5px 0.5px 4px gray;
