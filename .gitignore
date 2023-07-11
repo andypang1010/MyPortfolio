@@ -1,5 +1,1 @@
-
-media/.DS_Store
-media/images/.DS_Store
-media/images/screenshots/.DS_Store
-.DS_Store
+*.DS_Store
