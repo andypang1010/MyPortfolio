@@ -59,10 +59,11 @@
 
   <!-- Introduction section -->
   <div class="container section" id="Intro">
-    <h1>ANDY PANG</h1>
-    <p>Hello World!I'm currently a student at <b>CORNELL UNIVERSITY</b>. I'm majoring in <b>COMPUTER
+    <h1>&lt;/ANDY PANG&gt;</h1>
+    <p>Hello World! I'm currently a student at <b>CORNELL UNIVERSITY</b>. I'm majoring in <b>COMPUTER
         SCIENCE</b> with a minor in <b>PHYSICS</b> and <b>GAME DESIGN</b>. I have been programming for <b>4 YEARS
-      </b>already. I love designing and building <b>MOBILE APPS</b>,<b>WEBSITES</b> and <b>GAMES</b> using a variety of
+      </b>already. I love designing and building <b>MOBILE APPS</b>, <b>WEBSITES</b>, and <b>GAMES</b> using a variety
+      of
       tools. You can find some of my projects and demos here in<b><a class="link"
           href="#Projects">&lt;/PROJECTS&gt;</a></b>.</p>
     <p>If you wish to learn more about me, feel free to take a read in <b><a class="link"
@@ -100,8 +101,41 @@
     <div class="container section" id="Projects">
       <div class="row gy-5 gx-0">
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/arthurs-wacky-weapon-war.png" class="card-img-top"
-              width="100%" alt="Arthur's Wacky Weapon War cover">
+          <div class="card"><img src="media/images/screenshots/glutton-free-screenshot.png" class="card-img-top"
+              width="100%" alt="Glutton Free cover">
+            <div class="card-body">
+              <h5 class="card-title">&lt;/Glutton Free&gt;</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Unity 2D · Photoshop</h6><button class="btn stretched-link"
+                data-bs-toggle="modal" data-bs-target="#GluttonFree-Modal" style="border: none;"></button>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="GluttonFree-Modal" tabindex="-1" role="dialog"
+          aria-labelledby="GluttonFree-ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="GluttonFree-ModalLabel">&lt;/Glutton Free&gt;</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true"></span></button>
+              </div>
+              <div class="modal-body">
+                <p>Built within 72 hours, this is the game our group (consisted of Allen Weng, Devon Chan, and
+                  me) created from scratch for the <a href="{&quot;https://www.ldjam.com/&quot;}" target="_blank"> Ludum
+                    Dare 54 Game Jam</a> under the theme "Limited Space". In this game, the player controls a softbody
+                  bacteria that is trying to survive from an evil scientist who is constantly feeding it gluttonous
+                  food. The player's goal is to avoid as much gluttonous food as possible to avoid growing too big and
+                  dying. The player can push the bacteria around and dash, both done with the mouse. The player can also
+                  grow smaller by eating the floating probiotics to offset the damage done by the food. </p>
+                <p>It is now live and available <a href="https://github.com/andypang1010/Ludum-Dare-54/"
+                    target="_blank">here</a>!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
+          <div class="card"><img src="media/images/screenshots/arthurs-wacky-weapon-war-screenshot.png"
+              class="card-img-top" width="100%" alt="Arthur's Wacky Weapon War cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/Arthur's Wacky Weapon War&gt;</h5>
               <h6 class="card-subtitle mb-2 text-muted">Unity 2D · Aron Granberg A* Pathfinding · Photoshop</h6><button
@@ -157,7 +191,10 @@
                   on any NFC tags placed on the table. We have complete support of major payment methods, ranging from
                   credit cards to Apple Pay and PayPal, with the help of <a href="https://stripe.com/">Stripe</a>. We
                   store all our restaurant and order informations on <a href="https://firebase.google.com/docs/storage"
-                    target="_blank">FirebaseFirestore</a></p>
+                    target="_blank">FirebaseFirestore</a>. Data is transferred through a customly built <a
+                    href="https://socket.io/">socket.io</a> connection to enable real-time and low latency communication
+                  between our database and the client
+                  sessions.</p>
                 <p>It is still under development and will be published as soon as possible!</p>
               </div>
             </div>
