@@ -38,9 +38,11 @@
         aria-label="Toggle navigation" style="color: white;"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#About">&lt;/ABOUT&gt;</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Projects">&lt;/PROJECTS&gt;</a></li>
-          <li class="nav-item dropdown">
+          <li class="nav-item"><a class="nav-link" href="#Projects">&lt;/PORTFOLIO&gt;</a></li>
+          <li class="nav-item"><a class="nav-link" href="#About">&lt;/ABOUT ME&gt;</a></li>
+          <li class="nav-item"><a class="nav-link" href="media/Game Developer - Andy Pang's Resume.pdf" target="_blank"
+            rel="noreferrer">&lt;/RESUME&gt;</a></li>
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               &lt;/RESUME&gt;
             </a>
@@ -50,7 +52,7 @@
               <li><a class="dropdown-item nav-link" href="media/Game Developer - Andy Pang's Resume.pdf" target="_blank"
                   rel="noreferrer">&lt;/GAME&gt;</a></li>
             </ul>
-          </li>
+          </li> -->
           <li class="nav-item"><a class="nav-link" href="#Contact">&lt;/CONTACT&gt;</a></li>
         </ul>
       </div>
@@ -59,47 +61,42 @@
 
   <!-- Introduction section -->
   <div class="container section" id="Intro">
-    <h1>&lt;/ANDY PANG&gt;</h1>
-    <p>Hello World! I'm currently a student at <b>CORNELL UNIVERSITY</b>. I'm majoring in <b>COMPUTER
-        SCIENCE</b> with a minor in <b>GAME DESIGN</b>. I have been programming for <b>4 YEARS
-      </b>already. I love designing and building <b>MOBILE APPS</b>, <b>WEBSITES</b>, and <b>GAMES</b> using a variety
-      of
-      tools. You can find some of my projects and demos here in <b><a class="link"
-          href="#Projects">&lt;/PROJECTS&gt;</a></b>.</p>
-    <p>If you wish to learn more about me, feel free to take a read in <b><a class="link"
-          href="#About">&lt;/ABOUT&gt;</a></b>.</p>
-  </div>
-
-  <!-- About section -->
-  <div class="container-fluid" style="background-color: rgb(242, 242, 242);">
-    <div class="container section" id="About">
-      <div class="container">
-        <div class="row gy-4 d-flex justify-content-center">
-          <div class="col-12 d-flex justify-content-center"><img src="media/images/signature.png" id="signature-photo"
-              alt="signature"></div>
-          <div class="col-xxl-6 col-xl-5 col-lg-6 col-md-12 d-flex justify-content-center align-self-center"><span>
-              <p>Ever since I was a kid, there've always been three things on my bucket list: make a positive impact on
-                our community, travel and learn more about the diverse cultures on our planet, and live a happy life.
-              </p>
-              <p>I am not in the position to judge how I've changed things for good or whether I'll end up happy, but
-                what I do know, though, is that I've been to many places and experienced different lives, all of which
-                make me who I am today.</p>
-              <p>While I'm not busy writing code or grinding school work, I usually take some time off and do other
-                things that I enjoy, such as 🎾(tennis), ⛷️(skiing), 🍔(eating), 🎥(movies), 🎧(music), and of course,
-                🎮(gaming).</p>
-            </span></div>
-          <div class="col-xxl-4 col-lg-6 col-md-12 d-flex justify-content-center"><img id="about-photo"
-              src="media/images/about.png" alt="about"></div>
-          <div class="col-12"></div>
-        </div>
-      </div>
-    </div>
+    <h1 style="color: rgb(200, 0, 0);"><b>&lt;/ANDY PANG&gt;</b></h1>
+    <p>Hi, I'm Andy! I'm 20 and I'm currently a senior at <b>CORNELL UNIVERSITY</b>. I'm majoring in <b>COMPUTER
+        SCIENCE</b> with a minor in <b>GAME DESIGN</b>. I have been programming for over <b>6 YEARS
+      </b> and have experience in making games for over <b>3 YEARS</b>.</p>
+      <p>I'm a curious developer who thrives on taking on <b>new challenges</b> and constantly learning. I'm passionate about creating games that are not only fun to play but also feature <b>unique mechanics</b> that push players to adapt and think creatively.</p>
   </div>
 
   <!-- Projects section -->
-  <div class="container-fluid" style="background-color: white">
+  <div class="container-fluid" style="background-color: rgb(242, 242, 242)">
     <div class="container section" id="Projects">
       <div class="row gy-5 gx-0">
+        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
+          <div class="card"><img src="media/images/screenshots/everlast-screenshot.png" class="card-img-top"
+              width="100%" alt="EverLast cover">
+            <div class="card-body">
+              <h5 class="card-title">&lt;/EverLast&gt;</h5>
+              <h6 class="card-subtitle mb-2 text-muted">LibGDX · Box2D · Tiled</h6><button class="btn stretched-link"
+                data-bs-toggle="modal" data-bs-target="#EverLast-Modal" style="border: none;"></button>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="EverLast-Modal" tabindex="-1" role="dialog"
+          aria-labelledby="EverLast-ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="EverLast-ModalLabel">&lt;/EverLast&gt;</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true"></span></button>
+              </div>
+              <div class="modal-body">
+                <p>This is a semester-long project completed as a group of 8. The team consisted of Curtis Xu, David Wang, Erin Fang, Pilar Guiterrez, Raihaan Bose, Sebastian Rivera, Tuni Le, and myself. The game mechanics and artistic assets are all ideated, conceptualized, and developed from scratch. </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
           <div class="card"><img src="media/images/screenshots/back-to-life-screenshot.png" class="card-img-top"
               width="100%" alt="Back to Life cover">
@@ -223,254 +220,33 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/tap-tap-screenshot.png" class="card-img-top" width="100%"
-              alt="Tap Tap cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Tap Tap&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">ReactJS · Firebase · Axios · Bootstrap · Figma</h6><button
-                class="btn stretched-link" data-bs-toggle="modal" data-bs-target="#TapTap-Modal"
-                style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="TapTap-Modal" tabindex="-1" role="dialog" aria-labelledby="TapTap-ModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="TapTap-ModalLabel">&lt;/Tap Tap&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>An NFC-based online menu services that allows users to make orders at a restaurant with a single tap
-                  on any NFC tags placed on the table. We have complete support of major payment methods, ranging from
-                  credit cards to Apple Pay and PayPal, with the help of <a href="https://stripe.com/">Stripe</a>. We
-                  store all our restaurant and order informations on <a href="https://firebase.google.com/docs/storage"
-                    target="_blank">FirebaseFirestore</a>. Data is transferred through a customly built <a
-                    href="https://socket.io/">socket.io</a> connection to enable real-time and low latency communication
-                  between our database and the client
-                  sessions.</p>
-                <p>It is still under development and will be published as soon as possible!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/babblr-screenshot.png" class="card-img-top" width="100%"
-              alt="Babblr Translator cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Babblr Translator&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Swift UIKit · DeepL API · AssemblyAI API · MongoDB</h6><button
-                class="btn stretched-link" data-bs-toggle="modal" data-bs-target="#Babblr-Modal"
-                style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="Babblr-Modal" tabindex="-1" role="dialog" aria-labelledby="Babblr-ModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="Babblr-ModalLabel">&lt;/Babblr Translator&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>A real-time text and speech translator that uses <a
-                    href="{&quot;https://www.deepl.com/docs-api&quot;}" target="_blank">DeepL API</a> for language
-                  transaltion and <a href="{&quot;https://www.assemblyai.com/docs/&quot;}" target="_blank">AssemblyAI
-                    API</a> for speech-to-text transcription. The app also uses <a href="https://www.mongodb.com/docs/"
-                    target="_blank">MongoDB</a> to store all the previous translations for future references and
-                  retrieval. This is my second iOS app built with <a
-                    href="https://developer.apple.com/documentation/uikit" target="_blank">Swift UIKit</a> and has a
-                  similar minimalistic design to my other iOS projects. The app is divided into 3 different tabs based
-                  on their functionalities, one for text-to-text translation, one for speech-to-text transcription and
-                  translation, and the last for storing and managing previous translations.</p>
-                <p>It is still under development and will be published as soon as possible!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/wandering-pac-man-screenshot.png" class="card-img-top"
-              width="100%" alt="Wandering Pac-Man cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Wandering Pac-Man&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">OCaml · ANSI Terminal · Dune</h6><button
-                class="btn stretched-link" data-bs-toggle="modal" data-bs-target="#WanderingPacMan-Modal"
-                style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="WanderingPacMan-Modal" tabindex="-1" role="dialog"
-          aria-labelledby="WanderingPacMan-ModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="WanderingPacMan-ModalLabel">&lt;/Wandering Pac-Man&gt;</h5><button
-                  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span
-                    aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>The final group project developed by Yifei Zhou, Leqi Tian, Robin Li, and me for <a
-                    href="https://www.cs.cornell.edu/courses/cs3110/2023sp/" target="_blank">CS 3110 (Data Structures
-                    and Functional Programming)</a>. We decided to recreate a version of Pac-Man where all the ghosts
-                  are blindfolded and wandering around the maze while we control the Pac-Man to eat all the dots. To
-                  balance out the difficulty, we introduced randomness to our game and more ghosts to keep the player
-                  engaged. The final result is presented on the Terminal as a CLI and was accomplished using OCaml and
-                  <a href="https://github.com/Chris00/ANSITerminal" target="_blank">ANSITerminal</a>. I was responsible
-                  for taking in a JSON file and extract the map out of it and also programming the movements of our
-                  characters.
-                </p>
-                <p>It is now live and available <a href="https://github.com/rl626/cs3110project"
-                    target="_blank">here</a>!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/lumiere-screenshot.png" class="card-img-top" width="100%"
-              alt="iOS Lumiere cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/iOS Lumiere&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Swift UIKit · Firebase</h6><button class="btn stretched-link"
-                data-bs-toggle="modal" data-bs-target="#iosLumiere-Modal" style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="iosLumiere-Modal" tabindex="-1" role="dialog"
-          aria-labelledby="iosLumiere-ModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="iosLumiere-ModalLabel">&lt;/iOS Lumiere&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>Inspired by the web version of Lumiere that I developed with my friend Haoxuan half a year ago, this
-                  is an extended version of the same app with more functionalities and an improved front-end design made
-                  entirely on my own. This is an iOS app built with Swift UIKit that allows users to add, edit, and
-                  delete films they've watched or want to watch to the app's lists. The app features an authentication
-                  system using <a href="https://firebase.google.com/docs/auth" target="_blank">FirebaseAuth</a>, a data
-                  management system with <a href="https://firebase.google.com/docs/storage"
-                    target="_blank">FirebaseFirestore</a>, and a storage for user-uploaded images in FirebaseStorage.
-                  Two lists are implemented in the app, one storing the title, rating, and date of the movie that
-                  they've watched, while the other keeping score of the title of any unwatched films.</p>
-                <p>It is now live and available <a
-                    href="https://apps.apple.com/us/app/lumiere-movies-tracker/id1643368254" target="_blank">here</a>!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/lumiere-web-screenshot.png" class="card-img-top"
-              width="100%" alt="Web Lumiere cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Web Lumiere&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">ReactJS · NextJS · Firebase · ChakraUI</h6><button
-                class="btn stretched-link" data-bs-toggle="modal" data-bs-target="#webLumiere-Modal"
-                style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="webLumiere-Modal" tabindex="-1" role="dialog"
-          aria-labelledby="webLumiere-ModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="webLumiere-ModalLabel">&lt;/Web Lumiere&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>A website designed and built by Haoxuan and me as the final project for <a
-                    href="https://webdev.cornelldti.org/" target="_blank">INFO 1998 (Trends in Web Development)</a>, in
-                  which we used <a href="https://react.dev/blog/2023/03/16/introducing-react-dev"
-                    target="_blank">ReactJS</a> to build the website based on the <a href="https://nextjs.org/docs"
-                    target="_blank">NextJS</a> framework, <a href="https://chakra-ui.com/docs/components"
-                    target="_blank">ChakraUI</a> for CSS styling, as well as <a
-                    href="https://firebase.google.com/docs/auth" target="_blank">FirebaseAuth</a> and <a
-                    href="https://firebase.google.com/docs/storage" target="_blank">FirebaseFirestore</a> as our backend
-                  for authentication and data storage. This is a website that allows the user to add movies that they've
-                  watched and give a personal rating and comment on the movie.</p>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/pac-man-3d-screenshot.png" class="card-img-top"
-              width="100%" alt="Pac-Man 3D cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Pac-Man 3D&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Unity 3D · NavMesh Agents</h6><button class="btn stretched-link"
-                data-bs-toggle="modal" data-bs-target="#PacMan3D-Modal" style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="PacMan3D-Modal" tabindex="-1" role="dialog" aria-labelledby="PacMan3D-ModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="PacMan3D-ModalLabel">&lt;/Pac-Man 3D&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>A 3D remake of the classic Pac-Man game with inspiration from <a
-                    href="https://store.steampowered.com/app/332950/Dark_Deception/" target="_blank">Dark Deception</a>.
-                  This game features the classic Pac-Man on his quest trying to eat as many gems as possible without
-                  being caught by the four ghosts that are controlled by Unity <a
-                    href="https://docs.unity3d.com/ScriptReference/AI.NavMeshAgent.html" target="_blank">NavMesh
-                    Agents</a> with the same <a href="https://gameinternals.com/understanding-pac-man-ghost-behavior"
-                    target="_blank">algorithm</a> as that of the classical Pac-Man using the Unity 3D's built-in NavMesh
-                  Agents. This game also improves on the original approach of input control from only using the arrow
-                  keys to control the movement of Pac-Man to being able to control the movement of Pac-Man with both
-                  arrow keys and mouse.</p>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/running-square-screenshot.png" class="card-img-top"
-              width="100%" alt="Running Square cover">
-            <div class="card-body">
-              <h5 class="card-title">&lt;/Running Square&gt;</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Unity 3D</h6><button class="btn stretched-link"
-                data-bs-toggle="modal" data-bs-target="#RunningSquare-Modal" style="border: none;"></button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="RunningSquare-Modal" tabindex="-1" role="dialog"
-          aria-labelledby="RunningSquare-ModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="RunningSquare-ModalLabel">&lt;/Running Square&gt;</h5><button type="button"
-                  class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-              </div>
-              <div class="modal-body">
-                <p>My first complete Unity project inspired by a similar game I have seen earlier in the year. Completed
-                  all by myself with the occasional help to look up the implementation of certain UI or functionalities
-                  and reference to the Udemy Unity course by GameDev.tv. This is a 3D game involving a cube that is
-                  constantly accelerating across a game board to reach a destination. The difficulty of the game
-                  increases as the velocity of the cube increases, making it harder to control. There will be different
-                  types of obstacles on the way: spinning obstacles, arbitrarily falling obstacles, and stationary
-                  obstacles. This is a fun and minimalist game where you get to try your best to go to the finish line
-                  at 4,900m.</p>
-                <p>It is now live and available <a href="https://andypang1010.github.io/Running_Square/"
-                    target="_blank">here</a>!</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
+  <!-- About section -->
+  <div class="container-fluid" style="background-color: white;">
+    <div class="container section" id="About">
+      <div class="container">
+        <div class="row gy-4 d-flex justify-content-center">
+          <div class="col-xxl-6 col-xl-5 col-lg-6 col-md-12 d-flex justify-content-center align-self-center"><span>
+            <p>Since I was a kid, I've always had three big goals on my bucket list: to make a positive impact on my community, to travel and learn about the diverse cultures of our planet, and to live a happy life.</p>
+            <p>While I might not be the best judge of how much impact I've made, I can confidently say that I'm living a happy life, thanks to the incredible people I've met and the perspectives I've gained from traveling the world. It may not seem like much, but I'm deeply grateful for everything I have.</p>
+            <p>When I'm not working on my next project, I love taking time off to be with friends and family. I also enjoy indulging in activities like 🎾 tennis, ⛷️ skiing, 🍳 cooking, 🎥 watching movies, 🎧 listening to music, and, of course, 🎮 gaming.</p>
+            </span></div>
+            <div class="col-xxl-4 col-lg-6 col-md-12 d-flex justify-content-center"><img id="about-photo"
+              src="media/images/about.png" alt="about"></div>
+              <div class="col-12"></div>
+            <div class="col-12 d-flex justify-content-center"><img src="media/images/signature.png" id="signature-photo"
+                alt="signature"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
   <!-- Contact section -->
-  <div id="Contact">
+  <div id="Contact" style="background-color: rgb(242, 242, 242);">
     <div class="row gy-4">
 
       <div class="col-12"></div>
@@ -482,7 +258,7 @@
           <!-- LinkedIn -->
           <span class="fa-stack">
             <a href="https://www.linkedin.com/in/andypang1010/" target="_blank">
-              <i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x" aria-hidden="true" style="color: rgb(200, 0, 0);"></i>
               <i class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i>
             </a>
           </span>
@@ -490,7 +266,7 @@
           <!-- GitHub -->
           <span class="fa-stack">
             <a href="https://github.com/andypang1010" target="_blank">
-              <i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x" aria-hidden="true" style="color: rgb(200, 0, 0)"></i>
               <i class="fa fa-github fa-stack-1x" aria-hidden="true"></i>
             </a>
           </span>
@@ -498,23 +274,15 @@
           <!-- Instagram -->
           <span class="fa-stack">
             <a href="https://www.instagram.com/andypzs1010/" target="_blank">
-              <i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x" aria-hidden="true" style="color: rgb(200, 0, 0)"></i>
               <i class="fa fa-instagram fa-stack-1x" aria-hidden="true"></i>
-            </a>
-          </span>
-
-          <!-- Facebook -->
-          <span class="fa-stack">
-            <a href="https://www.facebook.com/andypzs1010/" target="_blank">
-              <i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
             </a>
           </span>
 
           <!-- Mail -->
           <span class="fa-stack">
             <a href="mailto:andypang1010@gmail.com">
-              <i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x" aria-hidden="true" style="color: rgb(200, 0, 0)"></i>
               <i class="fa fa-envelope-o fa-stack-1x" aria-hidden="true"></i>
             </a>
           </span>
@@ -523,8 +291,7 @@
 
       <!-- Copyright -->
       <div class="col-12">
-        <p style="text-align: center;">Designed with <span class="emoji" role="img" aria-label="heart"
-            aria-hidden="false">❤️</span> by Andy Pang © 2024
+        <p style="text-align: center;">Designed by Andy Pang © 2024
         </p>
       </div>
       <div class="col-12"></div>
