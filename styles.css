@@ -97,7 +97,7 @@ a {
 .section {
     margin-top: 175px;
     margin-bottom: 175px;
-    padding: 100px 70px;
+    padding: 100px 0px;
 }
 
 #about-photo {
