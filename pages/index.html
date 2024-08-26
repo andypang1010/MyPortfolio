@@ -11,16 +11,16 @@
   <meta name="author" content="Andy Pang">
   <meta property="og:site_name" content="Andy Pang">
   <meta property="og:title" content="Andy Pang">
-  <meta property="og:image" content="media/images/icons/logo.png">
+  <meta property="og:image" content="../media/images/icons/logo.png">
 
   <!-- Browser Tab -->
   <title>Andy Pang</title>
-  <link rel="icon" type="image/x-icon" href="media/images/icons/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../media/images/icons/favicon.ico">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
 
 <body>
@@ -32,15 +32,18 @@
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg bg-light sticky-top">
-    <div class="container-fluid"><img class="navbar-brand" src="media/images/icons/logo.png" width="50px"
-        alt="logo"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <div class="container-fluid">
+      <a href="#"><img class="navbar-brand" src="../media/images/icons/logo.png" width="50px" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation" style="color: white;"><span class="navbar-toggler-icon"></span></button>
+        aria-label="Toggle navigation" style="color: white;"><span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#Projects">&lt;/PORTFOLIO&gt;</a></li>
           <li class="nav-item"><a class="nav-link" href="#About">&lt;/ABOUT ME&gt;</a></li>
-          <li class="nav-item"><a class="nav-link" href="media/Game Developer - Andy Pang's Resume.pdf" target="_blank"
+          <li class="nav-item"><a class="nav-link" href="../media/Game Developer - Andy Pang's Resume.pdf" target="_blank"
             rel="noreferrer">&lt;/RESUME&gt;</a></li>
           <li class="nav-item"><a class="nav-link" href="#Contact">&lt;/CONTACT&gt;</a></li>
         </ul>
@@ -57,12 +60,39 @@
       <p>I'm a curious developer who thrives on taking on <b>new challenges</b> and constantly learning. I'm passionate about creating games that are not only fun to play but also feature <b>unique mechanics</b> that push players to adapt and think creatively.</p>
   </div>
 
+  <a href="hiraishin.html">CLICK HERE TO GO TO HIRAISHIN!</a>
+
   <!-- Projects section -->
   <div class="container-fluid" style="background-color: rgb(242, 242, 242)">
     <div class="container section" id="Projects">
       <div class="row gy-5 gx-0">
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/alice-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/hiraishin-screenshot.png" class="card-img-top"
+              width="100%" alt="ALICE cover">
+            <div class="card-body">
+              <h5 class="card-title">&lt;/Hiraishin&gt;</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Unity 3D · Mixamo</h6><button class="btn stretched-link"
+                data-bs-toggle="modal" data-bs-target="#Hiraishin-Modal" style="border: none;"></button>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="Hiraishin-Modal" tabindex="-1" role="dialog"
+          aria-labelledby="Hiraishin-ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Hiraishin-ModalLabel">&lt;/Hiraishin&gt;</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true"></span></button>
+              </div>
+              <div class="modal-body">
+                <p>This is a semester-long project completed as a group of 8. The team consisted of Curtis Xu, David Wang, Erin Fang, Pilar Guiterrez, Raihaan Bose, Sebastian Rivera, Tuni Le, and myself. The game mechanics and artistic assets are all ideated, conceptualized, and developed from scratch. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-md-12 d-flex justify-content-center">
+          <div class="card"><img src="../media/images/screenshots/alice-screenshot.png" class="card-img-top"
               width="100%" alt="ALICE cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/ALICE alice&gt;</h5>
@@ -87,7 +117,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/second-species-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/second-species-screenshot.png" class="card-img-top"
               width="100%" alt="Second Species cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/Second Species&gt;</h5>
@@ -112,7 +142,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/everlast-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/everlast-screenshot.png" class="card-img-top"
               width="100%" alt="EverLast cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/EverLast&gt;</h5>
@@ -137,7 +167,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/back-to-life-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/back-to-life-screenshot.png" class="card-img-top"
               width="100%" alt="Back to Life cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/Back to Life&gt;</h5>
@@ -166,7 +196,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/kuso-neko-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/kuso-neko-screenshot.png" class="card-img-top"
               width="100%" alt="Kuso Neko cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/Kuso Neko&gt;</h5>
@@ -195,7 +225,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-md-12 d-flex justify-content-center">
-          <div class="card"><img src="media/images/screenshots/glutton-free-screenshot.png" class="card-img-top"
+          <div class="card"><img src="../media/images/screenshots/glutton-free-screenshot.png" class="card-img-top"
               width="100%" alt="Glutton Free cover">
             <div class="card-body">
               <h5 class="card-title">&lt;/Glutton Free&gt;</h5>
@@ -241,9 +271,9 @@
             <p>When I'm not working on my next project, I love taking time off to be with friends and family. I also enjoy indulging in activities like 🎾 tennis, ⛷️ skiing, 🍳 cooking, 🎥 watching movies, 🎧 listening to music, and, of course, 🎮 gaming.</p>
             </span></div>
             <div class="col-xxl-4 col-lg-6 col-md-12 d-flex justify-content-center"><img id="about-photo"
-              src="media/images/about.png" alt="about"></div>
+              src="../media/images/about.png" alt="about"></div>
               <div class="col-12"></div>
-            <div class="col-12 d-flex justify-content-center"><img src="media/images/signature.png" id="signature-photo"
+            <div class="col-12 d-flex justify-content-center"><img src="../media/images/signature.png" id="signature-photo"
                 alt="signature"></div>
         </div>
       </div>
@@ -257,7 +287,7 @@
 
       <div class="col-12"></div>
       <div class="col-12"></div>
-      <!-- Social media icons -->
+      <!-- Social ../media icons -->
       <div class="col-12">
         <div class="d-flex justify-content-center">
 
